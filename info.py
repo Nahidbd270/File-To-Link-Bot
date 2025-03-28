@@ -9,23 +9,23 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Webavbot')
-API_ID = int(environ.get('API_ID', '12345678'))
-API_HASH = environ.get('API_HASH', '812529feb49f578FHB5d1')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7091568:AAGpX2rVUnDHCYV-96GJVUV")
-BOT_USERNAME = environ.get("BOT_USERNAME", 'AV_F2L_BOT') # without @ 
+API_ID = int(environ.get('API_ID', '26195153'))
+API_HASH = environ.get('API_HASH', 'cffc45876502fd70a6d20141b3bd1c8f')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7611511169:AAGHJMNrHeTt5FHkYEAmmBJz8ce_plixDmw")
+BOT_USERNAME = environ.get("BOT_USERNAME", 'CtgFileToLinkBot') # without @ 
 
 # Admins, Channels & Users
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-100')) # admin your channel in stream 
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-100')) # admin your channel in users log 
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002597872794')) # admin your channel in stream 
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002597872794')) # admin your channel in users log 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5977931010').split()] # 3567788, 678899, 5889467
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'BOT_OWNER26') # without @ 
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'gdtfgy55') # without @ 
 
 # pics information
 PICS = environ.get('PICS', 'https://envs.sh/b6H.jpg')
 
 # channel link information
-CHANNEL = environ.get('CHANNEL', 'https://t.me/')
-SUPPORT = environ.get('SUPPORT', 'http://t.me/')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/TeraboxMovies_world')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/Movie_Request_Group_23')
 
 #Dont Remove My Credit @AV_BOTz_UPDATE 
 #This Repo Is By @BOT_OWNER26 
@@ -34,16 +34,16 @@ SUPPORT = environ.get('SUPPORT', 'http://t.me/')
 # ban information
 BANNED_CHANNELS = [int(banned_channels) if id_pattern.search(banned_channels) else banned_channels for banned_channels in environ.get('BANNED_CHANNELS', '').split()]   
 BAN_CHNL = [int(ban_chal) if id_pattern.search(ban_chal) else ban_chal for ban_chal in environ.get('BAN_CHNL', '').split()]
-BAN_ALERT = environ.get('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.ᴄᴏɴᴛᴀᴄᴛ [ᴀᴠ ᴄʜᴀᴛ ᴏᴡɴᴇʀ](https://telegram.me/AV_OWNER_BOT) ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>')
+BAN_ALERT = environ.get('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.ᴄᴏɴᴛᴀᴄᴛ [ᴀᴠ ᴄʜᴀᴛ ᴏᴡɴᴇʀ](https://telegram/CtgFileToLinkBot) ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>')
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://galop32430:galop32430@cluster0.lslkl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 
 # fsub  information
 AUTH_PICS = environ.get('AUTH_PICS', 'https://envs.sh/AwV.jpg')              
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-100"))
-FSUB = environ.get("FSUB", True)
+FSUB = environ.get("FSUB",False)
 
 # port information
 PORT = int(getenv('PORT', '2626'))
