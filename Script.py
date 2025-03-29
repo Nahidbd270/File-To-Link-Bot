@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>Hᴇʏ {}, \n\nɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇ ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.\n\nᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ᴀɴᴅ ᴠɪᴅᴇᴏ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴀɴᴅ ꜱᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ.\n\n<blockquote><a href=https://t.me/{}?startchannel&admin=post_messages+edit_messages+delete_messages>➜ 𝖠𝖽𝖽 𝖳𝗈 𝖢𝗁𝖺𝗇𝗇𝖾𝗅</a></blockquote>\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ :  <a href=https://t.me/AV_BOTz_UPDATE>ᴀᴠ ʙᴏᴛᴢ</a></b>"""
+    START_TXT = """<b>Hᴇʏ {}, \n\nɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇ ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.\n\nᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ᴀɴᴅ ᴠɪᴅᴇᴏ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴀɴᴅ ꜱᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ.\n\n<blockquote><a href=https://t.me/{}?startchannel&admin=post_messages+edit_messages+delete_messages>➜ 𝖠𝖽𝖽 𝖳𝗈 𝖢𝗁𝖺𝗇𝗇𝖾𝗅</a></blockquote>\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ :  <a href=https://t.me/AllBotUpdatemy>Ctg Movies</a></b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
@@ -70,9 +70,9 @@ Nᴀᴍᴇ - {}"""
     ABOUT_TXT = """<b>╔════❰ {} ❱═══════❍
 ║╭━━━━━━━━━━━━━━━━━━➣
 ║┣⪼🤖ᴍʏ ɴᴀᴍᴇ : {}
-║┣⪼👦ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/AV_OWNER_BOT'>ᴀᴠ ᴄʜᴀᴛ ᴏᴡɴᴇʀ</a>
-║┣⪼❣️ᴜᴘᴅᴀᴛᴇ : <a href=https://t.me/AV_BOTz_UPDATE>ᴀᴠ ʙᴏᴛᴢ</a>
-║┣⪼💻sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=https://github.com/Botsthe/AV-FILE-TO-LINK>ʀᴇᴘᴏ</a>
+║┣⪼👦ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/CtgmoviesAdminbot'>Admin ᴄʜᴀᴛ ᴏᴡɴᴇʀ</a>
+║┣⪼❣️ᴜᴘᴅᴀᴛᴇ : <a href=https://t.me/AllBotUpdatemy>Ctg Mocies</a>
+║┣⪼💻sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=https://t.me/AllBotUpdatemy>ʀᴇᴘᴏ</a>
 ║┣⪼⏲️ʙᴏᴛ ᴜᴘᴛɪᴍᴇ :- {}
 ║┣⪼📡Hᴏsᴛᴇᴅ ᴏɴ : ᴋᴏʏᴇʙ 
 ║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 
@@ -90,7 +90,7 @@ Nᴀᴍᴇ - {}"""
     CAPTION_TXT = """
 <i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>
 
-<b>📧 ꜰɪʟᴇ ɴᴀᴍᴇ :- </b> <i><a href=https://t.me/av_botz_updated>{}</a></i>
+<b>📧 ꜰɪʟᴇ ɴᴀᴍᴇ :- </b> <i><a href=https://t.me/AllBotUpdatemy>{}</a></i>
 
 <b>📦 ꜰɪʟᴇ sɪᴢᴇ :- </b> <i>{}</i>
 
