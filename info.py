@@ -15,7 +15,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7611511169:AAGHJMNrHeTt5FHkYEAmmBJz8ce_pli
 BOT_USERNAME = environ.get("BOT_USERNAME", 'CtgFileToLinkBot') # without @ 
 
 # Admins, Channels & Users
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002597872794')) # admin your channel in stream 
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002406052868')) # admin your channel in stream 
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002597872794')) # admin your channel in users log 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5977931010').split()] # 3567788, 678899, 5889467
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'gdtfgy55') # without @ 
