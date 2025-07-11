@@ -11,7 +11,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'Webavbot')
 API_ID = int(environ.get('API_ID', '26195153'))
 API_HASH = environ.get('API_HASH', 'cffc45876502fd70a6d20141b3bd1c8f')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7611511169:AAGHJMNrHeTt5FHkYEAmmBJz8ce_plixDmw")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7611511169:AAGBGRrUXy3L6XuBI1OGJE6pJ7iBYka10BE")
 BOT_USERNAME = environ.get("BOT_USERNAME", 'CtgFileToLinkBot') # without @ 
 
 # Admins, Channels & Users
